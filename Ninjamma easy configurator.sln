@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninjamma easy configurator", "Ninjamma easy configurator\Ninjamma easy configurator.csproj", "{A6FEB2AA-EA49-4A1F-9B32-D1B6BCE441CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6FEB2AA-EA49-4A1F-9B32-D1B6BCE441CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FEB2AA-EA49-4A1F-9B32-D1B6BCE441CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FEB2AA-EA49-4A1F-9B32-D1B6BCE441CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FEB2AA-EA49-4A1F-9B32-D1B6BCE441CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04C161EC-1C49-49BA-BCE5-07EE7FCBA696}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\bin\Debug\Ninjamma easy configurator.exe.config
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\bin\Debug\Ninjamma easy configurator.exe
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\bin\Debug\Ninjamma easy configurator.pdb
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.csprojAssemblyReference.cache
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma_easy_configurator.Properties.Resources.resources
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.csproj.GenerateResource.cache
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.csproj.CoreCompileInputs.cache
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.exe
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.pdb
+C:\Users\SMCP-ZEN7\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma_easy_configurator.Form1.resources
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\bin\Debug\Ninjamma easy configurator.exe.config
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\bin\Debug\Ninjamma easy configurator.exe
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\bin\Debug\Ninjamma easy configurator.pdb
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.csprojAssemblyReference.cache
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma_easy_configurator.Form1.resources
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma_easy_configurator.Properties.Resources.resources
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.csproj.GenerateResource.cache
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.csproj.CoreCompileInputs.cache
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.exe
+C:\Users\N.Master\source\repos\Ninjamma easy configurator\Ninjamma easy configurator\obj\Debug\Ninjamma easy configurator.pdb
