@@ -20,15 +20,21 @@ namespace Ninjamma_easy_configurator
         {
             InitializeComponent();
             
-            for (int i = 0; i < 31; i++)
+            for (int i = 0; i < 24; i++)
             {
                 Mixer.Inputs.SetValue(1 << i, i);
                 Mixer.Outputs.SetValue(1 << i, i);
                 Mixer.Frequency.SetValue(0, i);
             }
+            for (int i = 24; i < 31; i++)
+            {
+                Mixer.Inputs.SetValue(0, i);
+                Mixer.Outputs.SetValue(0, i);
+                Mixer.Frequency.SetValue(0, i);
+            }
+
 
             int input_value = (int)Mixer.Inputs.GetValue(((int)numericUpDown9.Value));
-
             int output_value = (int)Mixer.Outputs.GetValue(((int)numericUpDown9.Value));
 
 
@@ -80,26 +86,30 @@ namespace Ninjamma_easy_configurator
             textBox1.Text += textBox2.Text;
             textBox1.Text += ",";
             textBox1.Text += "FREQ0=";
-            textBox1.Text += (int) (100000/numericUpDown1.Value);
+            textBox1.Text += (int) (491520 / numericUpDown1.Value);
             textBox1.Text += ",";
             textBox1.Text += "SFREQ0=";
-            textBox1.Text += numericUpDown5.Value;
+            textBox1.Text += numericUpDown8.Value - 1;
             textBox1.Text += ",";
             textBox1.Text += "FREQ1=";
-            textBox1.Text += (int)(100000 / numericUpDown2.Value);
+            textBox1.Text += (int)(491520 / numericUpDown2.Value);
             textBox1.Text += ",";
             textBox1.Text += "SFREQ1=";
-            textBox1.Text += numericUpDown6.Value;
+            textBox1.Text += numericUpDown7.Value -1;
             textBox1.Text += ",";
             textBox1.Text += "FREQ2=";
-            textBox1.Text += (int)(100000 / numericUpDown3.Value);
+            textBox1.Text += (int)(491520 / numericUpDown3.Value);
             textBox1.Text += ",";
             textBox1.Text += "SFREQ2=";
-            textBox1.Text += numericUpDown7.Value;
+            textBox1.Text += numericUpDown6.Value -1;
             textBox1.Text += ",";
             textBox1.Text += "FREQ3=";
-            textBox1.Text += (int)(100000 / numericUpDown4.Value);
+            textBox1.Text += (int)(491520 / numericUpDown4.Value);
             textBox1.Text += ",";
+            textBox1.Text += "SFREQ3=";
+            textBox1.Text += numericUpDown5.Value - 1;
+            textBox1.Text += ",";
+
             for (int f = 0; f < 31; f++)
             {
                 textBox1.Text += "MIX";
@@ -162,8 +172,7 @@ namespace Ninjamma_easy_configurator
         private void numericUpDown9_ValueChanged_1(object sender, EventArgs e)
         {
            
-                int input_value = (int)Mixer.Inputs.GetValue(((int)numericUpDown9.Value));
-
+            int input_value = (int)Mixer.Inputs.GetValue(((int)numericUpDown9.Value));
             int output_value = (int)Mixer.Outputs.GetValue(((int)numericUpDown9.Value));
        
 
@@ -220,7 +229,7 @@ namespace Ninjamma_easy_configurator
 
             }
 
-            Mixer.Inputs.SetValue(temp_output_val, ((int)numericUpDown9.Value));
+            Mixer.Outputs.SetValue(temp_output_val, ((int)numericUpDown9.Value));
         }
 
         private void label5_Click(object sender, EventArgs e)

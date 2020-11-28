@@ -699,7 +699,7 @@ namespace Ninjamma_easy_configurator
             // 
             this.numericUpDown9.Location = new System.Drawing.Point(7, 24);
             this.numericUpDown9.Maximum = new decimal(new int[] {
-            23,
+            31,
             0,
             0,
             0});
@@ -707,6 +707,11 @@ namespace Ninjamma_easy_configurator
             this.numericUpDown9.Size = new System.Drawing.Size(47, 20);
             this.numericUpDown9.TabIndex = 0;
             this.numericUpDown9.ValueChanged += new System.EventHandler(this.numericUpDown9_ValueChanged_1);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "nin";
+            this.saveFileDialog1.Filter = "Ninjamma files|*.nin";
             // 
             // textBox1
             // 
